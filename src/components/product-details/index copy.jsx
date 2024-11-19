@@ -7,8 +7,10 @@ import ProductDetailsArea from "./product-details-area";
 const ProductDetails = () => {
   return (
     <>
+      <HeaderTwo />
       <Banner />
       <ProductDetailsArea />
+      <FooterFour />
     </>
   );
 };

@@ -7,8 +7,10 @@ import ShopBanner from "./shop-banner";
 const Shop = () => {
   return (
     <>
+      <HeaderTwo />
       <ShopBanner />
       <ShopArea />
+      <FooterFour />
     </>
   );
 };

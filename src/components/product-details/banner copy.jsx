@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <>
       <section
-        className="breadcrumb__area pt-100 pb-120 breadcrumb__overlay mb-20"
+        className="breadcrumb__area pt-100 pb-120 breadcrumb__overlay"
         style={{
           backgroundImage: `url(/assets/img/banner/breadcrumb-01.jpg)`,
         }}

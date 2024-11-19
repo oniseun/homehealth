@@ -11,12 +11,14 @@ import FooterFour from "@/layout/footer/footer-4";
 const About = () => {
   return (
     <>
+      <HeaderTwo />
       <Banner />
       <AboutArea />
       <Counter />
       <Specialists />
       <NavTab />
       <Team />
+      <FooterFour />
     </>
   );
 };

@@ -8,9 +8,11 @@ import ServiceDetailsArea from "./service-details-area";
 const ServiceDetails = () => {
   return (
     <>
+      <HeaderTwo />
       <Banner />
       <ServiceDetailsArea />
       <DirectContactUs />
+      <FooterFour />
     </>
   );
 };
