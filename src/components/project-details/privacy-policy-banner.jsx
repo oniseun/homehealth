@@ -2,7 +2,7 @@ import Link from 'next/link';
 import React from 'react';
 import ProjectDetailsBanner from './project-details-banner';
 
-const ProjectDetailsBanner = () => {
+const PrivacyPolicyBanner = () => {
     return (
       <>
         <section
@@ -15,13 +15,13 @@ const ProjectDetailsBanner = () => {
             <div className="row align-items-center">
               <div className="col-xl-7 col-lg-12 col-md-12 col-12">
                 <div className="tp-breadcrumb">
-                  <h2 className="tp-breadcrumb__title">Project Details</h2>
+                  <h2 className="tp-breadcrumb__title">Privacy Policy</h2>
                 </div>
               </div>
               <div className="col-xl-5 col-lg-12 col-md-12 col-12">
                 <div className="tp-breadcrumb__link text-xl-end">
                   <span>
-                    Bioxlab : <Link href="/portfolio-details">Project</Link>
+                    HomeHealth : <Link href="/">Home</Link>
                   </span>
                 </div>
               </div>
@@ -32,4 +32,4 @@ const ProjectDetailsBanner = () => {
     );
 };
 
-export default ProjectDetailsBanner;
+export default PrivacyPolicyBanner;

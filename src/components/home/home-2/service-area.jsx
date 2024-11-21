@@ -45,7 +45,7 @@ const ServiceArea = () => {
                   </div>
                   <div className="tp-services-box__content">
                     <h4 className="tp-services-box__title mb-30">
-                      <Link href="/services-details">{item.title}</Link>
+                      <Link href="/products">{item.title}</Link>
                     </h4>
                     <div className="tp-services-box__btn">
                       <a className={`tp-btn-hexa ${item.dot}`} href="#">

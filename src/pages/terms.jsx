@@ -6,12 +6,19 @@ import React from 'react';
 
 const index = () => {
     return (
-      <Wrapper>
-            <SEO pageTitle="Project Details" />
+        <Wrapper>
+            <SEO
+                pageTitle="Terms and Conditions"
+                description="Explore the terms and conditions for using HomeHealth's website and services, including legal obligations and user rights."
+                keywords="terms and conditions, HomeHealth terms, website usage policy, legal terms, user rights"
+                ogTitle="Terms and Conditions - HomeHealth"
+                ogDescription="Understand the legal guidelines and obligations when using HomeHealth's website and services."
+                ogUrl="/terms"
+            />
             <LayoutTwo>
-            <ProjectDetails />
+                <ProjectDetails />
             </LayoutTwo>
-      </Wrapper>
+        </Wrapper>
     );
 };
 

@@ -24,7 +24,7 @@ const menu_data = [
     mega_menu: false,
     has_dropdown: true,
     title: "Products",
-    link: "/shop",
+    link: "/products",
     active: "", // Not active by default
     sub_menus: [
       { link: "/product-details", title: "Product Details", active: "" },

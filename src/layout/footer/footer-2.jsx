@@ -42,7 +42,10 @@ const FooterTwo = () => {
                           <Link href="/contact">Contact us</Link>
                         </li>
                         <li>
-                          <Link href="/about">Help & About us</Link>
+                          <Link href="/about">About us</Link>
+                        </li>
+                        <li>
+                          <Link href="/faq">Frequently asked questions</Link>
                         </li>
                       </ul>
                     </div>
