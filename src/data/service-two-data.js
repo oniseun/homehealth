@@ -3,7 +3,7 @@ const service_two_data = [
     id: 1,
     color: "",
     icon_color: "",
-    icon: "flaticon-hemoglobin-test-meter", // Original valid icon
+    icon: "fa-solid fa-ribbon", // Font Awesome icon for oncology
     title: "Oncology",
     dot: "",
   },
@@ -11,7 +11,7 @@ const service_two_data = [
     id: 2,
     color: "tp-pink-bg",
     icon_color: "tp-pink-icon",
-    icon: "flaticon-blood-test", // Valid icon for infectious diseases
+    icon: "fa-solid fa-disease", // Font Awesome icon for infectious diseases
     title: "Infectious Diseases",
     dot: "pink-dot",
   },
@@ -19,7 +19,7 @@ const service_two_data = [
     id: 3,
     color: "tp-green-bg",
     icon_color: "tp-green-icon",
-    icon: "flaticon-flask", // Valid icon for OTC/POC
+    icon: "fa-solid fa-vial", // Font Awesome icon for POC Tests
     title: "POC Tests",
     dot: "green-dot",
   },
@@ -27,7 +27,7 @@ const service_two_data = [
     id: 4,
     color: "tp-sky-bg",
     icon_color: "tp-sky-icon",
-    icon: "flaticon-dna", // Valid icon for diagnostics
+    icon: "fa-solid fa-dna", // Font Awesome icon for molecular tests
     title: "Molecular Tests",
     dot: "sky-dot",
   },
@@ -35,7 +35,7 @@ const service_two_data = [
     id: 5,
     color: "tp-green-bg",
     icon_color: "tp-green-icon",
-    icon: "flaticon-bacteria", // Valid icon for pathogen detection
+    icon: "fa-solid fa-virus", // Font Awesome icon for pathogen tests
     title: "Pathogen Tests",
     dot: "green-dot",
   },
@@ -43,7 +43,7 @@ const service_two_data = [
     id: 6,
     color: "tp-sky-bg",
     icon_color: "tp-sky-icon",
-    icon: "flaticon-dna", // DNA remains valid for genetic testing
+    icon: "fa-solid fa-vials", // Font Awesome icon for genetic testing
     title: "Genetic Tests",
     dot: "sky-dot",
   },
@@ -51,7 +51,7 @@ const service_two_data = [
     id: 7,
     color: "",
     icon_color: "",
-    icon: "flaticon-dna-1", // Original icon remains for histopathology
+    icon: "fa-solid fa-flask", // Font Awesome icon for histopathology
     title: "Histopathology",
     dot: "",
   },
@@ -59,9 +59,10 @@ const service_two_data = [
     id: 8,
     color: "tp-pink-bg",
     icon_color: "tp-pink-icon",
-    icon: "flaticon-microscope", // Lab icon for research and diagnostics
+    icon: "fa-solid fa-microscope", // Font Awesome icon for research
     title: "Research",
     dot: "pink-dot",
   },
 ];
+
 export default service_two_data;
