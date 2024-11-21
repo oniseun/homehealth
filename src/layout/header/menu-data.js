@@ -22,12 +22,12 @@ const menu_data = [
   {
     id: 3,
     mega_menu: false,
-    has_dropdown: true,
+    has_dropdown: false,
     title: "Products",
     link: "/products",
-    active: "", // Not active by default
+    active: "",
     sub_menus: [
-      { link: "/product-details", title: "Product Details", active: "" },
+     
     ],
   },
   {
