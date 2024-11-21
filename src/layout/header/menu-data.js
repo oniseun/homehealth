@@ -31,11 +31,13 @@ const menu_data = [
   {
     id: 4,
     mega_menu: false,
-    has_dropdown: false,
+    has_dropdown: true,
     title: "Technology",
-    link: "/service-details",
+    link: "#",
     active: "",
-    sub_menus: []
+    sub_menus: [
+      { link: "/project-details", title: "Project Details" },
+    ],
   },
   {
     id: 5,

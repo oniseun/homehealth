@@ -102,12 +102,12 @@
 .navtabs__shape {
 	position: absolute;
 	top: 33px;
-	left: 240px;
+	left: 360px;
     @media #{$xl} {
-        left: 210px;        
+        left: 300px;        
     }
     @media #{$lg} {
-        left: 150px;        
+        left: 230px;        
     }
 }
 .nabthumb {

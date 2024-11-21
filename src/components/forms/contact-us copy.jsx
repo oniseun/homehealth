@@ -4,7 +4,7 @@ const ContactUs = () => {
   return (
     <>
       <div className="contactform__list mb-60">
-        {/* <form onSubmit={e => e.preventDefault()} id="contact-form" method="post">
+        <form onSubmit={e => e.preventDefault()} id="contact-form" method="post">
           <div className="row">
             <div className="col-lg-6">
               <div className="contactform__input mb-30">
@@ -55,10 +55,7 @@ const ContactUs = () => {
               <p className="ajax-response"></p>
             </div>
           </div>
-        </form> */}
-        <iframe style={{ overflowY: 'hidden', margin: '0'}}  src="https://docs.google.com/forms/d/e/1FAIpQLSfuRnTtCJYdeauzWl4-vTNDhvcYB9aU58LwBaUWP59i__HNzQ/viewform?embedded=true" 
-        width="100%" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-
+        </form>
       </div>
     </>
   );

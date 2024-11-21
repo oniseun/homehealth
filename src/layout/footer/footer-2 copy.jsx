@@ -21,9 +21,19 @@ const FooterTwo = () => {
                       </h4>
                       <a href="mailto:noreply@envato.com">noreply@envato.com</a>
                     </div>
+                    <div className="tp-footer-widget__sub-sec">
+                      <span className="tp-footer-widget__sub-title mb-5">
+                        Career
+                      </span>
+                      <p>
+                        Nam eget dui vel quam sodales semper quis porttitor
+                        <br /> tortor. Vivamus quis ex nulla ...Nam eget dui vel
+                        quam <br /> sodales semper quis porttitor tortor.
+                      </p>
+                    </div>
                   </div>
                 </div>
-                <div className="col-lg-4 col-md-6">
+                <div className="col-lg-3 col-md-6">
                   <div
                     className="tp-footer-widget footer-2-col-2 mb-40 wow fadeInUp"
                     data-wow-delay=".4s"
@@ -34,15 +44,23 @@ const FooterTwo = () => {
                     <div className="tp-footer-widget__links mb-35">
                       <ul>
                         <li>
-                          <Link href="/">Home</Link>
-                        </li>
-                        <li>
                           <Link href="/contact">Contact us</Link>
                         </li>
                         <li>
                           <Link href="/about">Help & About us</Link>
                         </li>
-                        
+                        <li>
+                          <Link href="/shop-details">Shipping & Returns</Link>
+                        </li>
+                        <li>
+                          <Link href="/">Refund Policy</Link>
+                        </li>
+                        <li>
+                          <Link href="/about">About us</Link>
+                        </li>
+                        <li>
+                          <Link href="/services-details">Services</Link>
+                        </li>
                       </ul>
                     </div>
                     <div className="tp-footer-widget__sub-sec">
@@ -59,7 +77,54 @@ const FooterTwo = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-4 col-md-6">
+                <div className="col-lg-2 col-md-6">
+                  <div
+                    className="tp-footer-widget footer-2-col-3 mb-40 wow fadeInUp"
+                    data-wow-delay=".6s"
+                  >
+                    <span className="tp-footer-widget__title mb-15">
+                      Customer Service
+                    </span>
+                    <div className="tp-footer-widget__links">
+                      <ul>
+                        <li>
+                          <a href="#">Orders</a>
+                        </li>
+                        <li>
+                          <a href="#">Product</a>
+                        </li>
+                        <li>
+                          <a href="shop-details">Shipping & Returns</a>
+                        </li>
+                        <li>
+                          <a href="#">Addresses</a>
+                        </li>
+                        <li>
+                          <a href="#">Account details</a>
+                        </li>
+                        <li>
+                          <a href="#">Shop</a>
+                        </li>
+                        <li>
+                          <a href="#">Lost password</a>
+                        </li>
+                        <li>
+                          <a href="#">Account</a>
+                        </li>
+                        <li>
+                          <a href="#">Downloads</a>
+                        </li>
+                        <li>
+                          <a href="#">Orders</a>
+                        </li>
+                        <li>
+                          <a href="#">Logout</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-3 col-md-6">
                   <div
                     className="tp-footer-widget footer-2-col-4 mb-40 wow fadeInUp"
                     data-wow-delay=".8s"

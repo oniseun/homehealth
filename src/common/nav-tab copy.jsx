@@ -28,18 +28,6 @@ const progress_data = [
   },
   {
     id: 3,
-    icon: "flaticon-flask",
-    img: "/assets/img/shape/navtabs-01.png",
-    title: "Testing Begins",
-    des: (
-      <>
-        There are many varios passages <br />
-        suffered alten in some
-      </>
-    ),
-  },
-  {
-    id: 4,
     icon: "flaticon-report",
     img: "",
     title: "Reports Delivered",
@@ -180,7 +168,7 @@ const NavTab = () => {
               </span>
               <div className="row">
                 {progress_data.map((item) => (
-                  <div key={item.id} className="col-xl-3 col-lg-3 col-md-6">
+                  <div key={item.id} className="col-xl-4 col-lg-4 col-md-6">
                     <div className="navtabs nav-primary p-relative text-center mb-40">
                       <div className="navtabs__icon mb-35">
                         <i className={item.icon}></i>

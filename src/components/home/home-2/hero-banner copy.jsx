@@ -8,58 +8,39 @@ const hero_slider = [
     id: 1,
     title: (
       <>
-        Empowering Africa's <br /> Healthcare Future <br /> with Innovation
+        Our Passion is to <br /> Give you Better <br /> Service
       </>
     ),
     des: (
       <>
-        Pioneering clinical research to address Africa’s unique challenges. <br />
-        Transforming lives through collaboration and biotechnology.
+        Your full service lab for clinical trials. Our mission is to ensure the{" "}
+        <br /> generation of accurate and precise findings
       </>
     ),
-    appointment: "Learn More",
-    about: "Our Mission",
-    img_1: "/assets/img/slider/homehealth-bg-1.png",
-    img_2: "/assets/img/slider/homehealth-bg-2.png",
+    appointment: "Appointment",
+    about: "About us",
+    img_1: "/assets/img/slider/slider-bg-1.png",
+    img_2: "/assets/img/slider/slider-bg-2.png",
   },
   {
     id: 2,
     title: (
       <>
-        Advancing Healthcare <br /> Standards <br /> Across Africa
+        Our Passion is to <br /> Give you Better <br /> Service
       </>
     ),
     des: (
       <>
-        Driving sustainable health solutions through ethical research and <br />
-        cutting-edge technology for African communities.
+        Your full service lab for clinical trials. Our mission is to ensure the{" "}
+        <br /> generation of accurate and precise findings
       </>
     ),
-    appointment: "Learn More",
-    about: "Our Vision",
-    img_1: "/assets/img/slider/homehealth-bg-3.png",
-    img_2: "/assets/img/slider/homehealth-bg-4.png",
-  },
-  {
-    id: 3,
-    title: (
-      <>
-        Building a Healthier <br /> Africa, One <br /> Breakthrough at a Time
-      </>
-    ),
-    des: (
-      <>
-        Empowering communities with affordable, effective, and <br />
-        life-changing medical solutions tailored to local needs.
-      </>
-    ),
-    appointment: "Explore More",
-    about: "Our Research",
-    img_1: "/assets/img/slider/homehealth-bg-5.png",
-    img_2: "/assets/img/slider/homehealth-bg-6.png",
+    appointment: "Appointment",
+    about: "About us",
+    img_1: "/assets/img/slider/slider-bg-3.png",
+    img_2: "/assets/img/slider/slider-bg-2.png",
   },
 ];
-
 
 // slider setting
 const setting = {
