@@ -57,7 +57,7 @@ const ContactUs = () => {
           </div>
         </form> */}
         <iframe style={{ overflowY: 'hidden', margin: '0'}}  src="https://docs.google.com/forms/d/e/1FAIpQLSfuRnTtCJYdeauzWl4-vTNDhvcYB9aU58LwBaUWP59i__HNzQ/viewform?embedded=true" 
-        width="100%" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        width="100%" height="1100" frameborder="0" marginHeight="0" marginWidth="0">Loading…</iframe>
 
       </div>
     </>

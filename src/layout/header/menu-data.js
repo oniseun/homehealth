@@ -1,3 +1,5 @@
+import technologies_data from "@/data/technologies-data";
+
 const menu_data = [
   {
     id: 1,
@@ -5,8 +7,8 @@ const menu_data = [
     has_dropdown: false,
     title: "Home",
     link: "/",
-    active: "active",
-    sub_menus: []
+    active: "active", // Set manually as needed
+    sub_menus: [],
   },
   {
     id: 2,
@@ -14,8 +16,8 @@ const menu_data = [
     has_dropdown: false,
     title: "About",
     link: "/about",
-    active: "",
-    sub_menus: []
+    active: "", // Not active by default
+    sub_menus: [],
   },
   {
     id: 3,
@@ -23,9 +25,9 @@ const menu_data = [
     has_dropdown: true,
     title: "Products",
     link: "/shop",
-    active: "",
+    active: "", // Not active by default
     sub_menus: [
-      { link: "/product-details", title: "Product Details" },
+      { link: "/product-details", title: "Product Details", active: "" },
     ],
   },
   {
@@ -34,10 +36,12 @@ const menu_data = [
     has_dropdown: true,
     title: "Technology",
     link: "#",
-    active: "",
-    sub_menus: [
-      { link: "/project-details", title: "Project Details" },
-    ],
+    active: "", // Not active by default
+    sub_menus: technologies_data.map((tech) => ({
+      link: `/technology/${tech.id}`,
+      title: tech.main_title,
+      active: "", // Not active by default
+    })),
   },
   {
     id: 5,
@@ -45,8 +49,9 @@ const menu_data = [
     has_dropdown: false,
     title: "Contact",
     link: "/contact",
-    active: "",
-    sub_menus: []
+    active: "", // Not active by default
+    sub_menus: [],
   },
 ];
+
 export default menu_data;
