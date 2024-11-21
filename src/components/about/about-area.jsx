@@ -21,12 +21,11 @@ const AboutArea = () => {
                     />
                     <div className="about__exprience tp-ab-counter">
                       <h3 className="counter">
-
                         <Count add_style={true} number={12} />
                       </h3>
                       <i>
                         Years of <br />
-                        Experience
+                        Advancing Healthcare
                       </i>
                     </div>
                   </div>
@@ -52,42 +51,41 @@ const AboutArea = () => {
               >
                 <div className="tp-section">
                   <h3 className="tp-section__title ab-title mb-25">
-                    We’ll Ensure You Alwasy Get Best Results.
+                    Transforming Lives Through Innovation
                   </h3>
-                  <a className="tp-section__link" href="#">
-                    Read our MIssion & Vission{" "}
+                  <a className="tp-section__link" href="#vision-mission">
+                    Read our Mission & Vision{" "}
                     <i className="fa-solid fa-arrow-right"></i>
                   </a>
-                  <p className=" mr-20 mb-40">
-                    Exerci tation ullamcorper suscipit lobortis nisl aliquip ex
-                    ea commodo claritatem insitamconse quat.Exerci tation
-                    ullamcorper suscipit loborti excommodo habent claritatem
-                    insitamconse quat.Exerci tationlobortis nisl aliquip ex ea
-                    commodo habent claritatem insitamconse quat.
+                  <p className="mr-20 mb-40">
+                    At HomeHealth, we are dedicated to addressing Africa's unique
+                    healthcare challenges through high-quality, ethically-grounded
+                    clinical research. By leveraging advanced biotechnology and
+                    fostering collaboration with local and international experts,
+                    we strive to provide safe, effective, and affordable medical
+                    solutions to communities across the continent.
                   </p>
                 </div>
                 <div className="tp-about__info-list ab-check-list mb-55">
                   <ul>
                     <li>
-                      <i className="fa-solid fa-check"></i>Extramural Funding
+                      <i className="fa-solid fa-check"></i> Leading innovation in
+                      healthcare and precision diagnostics
                     </li>
                     <li>
-                      <i className="fa-solid fa-check"></i>Bacteria Markers
+                      <i className="fa-solid fa-check"></i> Committed to
+                      empowering African communities with advanced medical
+                      solutions
                     </li>
                     <li>
-                      <i className="fa-solid fa-check"></i>Nam nec mi euismod
-                      euismod
+                      <i className="fa-solid fa-check"></i> Collaboration with
+                      local experts and global partners
                     </li>
                     <li>
-                      <i className="fa-solid fa-check"></i>In aliquet dui nec
-                      lectus
+                      <i className="fa-solid fa-check"></i> Dedicated to
+                      knowledge sharing and capacity building
                     </li>
                   </ul>
-                </div>
-                <div className="about-content__btn">
-                  <Link href="/about" className="tp-btn">
-                    About us
-                  </Link>
                 </div>
               </div>
             </div>

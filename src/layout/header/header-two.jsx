@@ -3,10 +3,13 @@ import useSticky from "hooks/use-sticky";
 import Link from "next/link";
 import React, { useState } from "react";
 import NavMenu from "./nav-menu";
+import contact_data from "@/data/contact-data";
 
 const HeaderTwo = () => {
   const { sticky } = useSticky();
   const [isActive, setIsActive] = useState(false);
+
+  const contact = contact_data[0]; // Access contact data
 
   return (
     <>
@@ -28,7 +31,7 @@ const HeaderTwo = () => {
             <div className="col-md-8 col-2">
               <div className="tp-mobile-bar d-flex align-items-center justify-content-end">
                 <div className="tp-bt-btn-banner d-none d-md-block d-xl-none mr-30">
-                  <a className="tp-bt-btn" href="tel:123456">
+                  <a className="tp-bt-btn" href={`tel:${contact.phone}`}>
                     <svg
                       width="14"
                       height="19"
@@ -47,7 +50,7 @@ const HeaderTwo = () => {
                       <circle cx="2" cy="7" r="2" fill="#0E63FF" />
                       <circle cx="2" cy="12" r="2" fill="#0E63FF" />
                     </svg>
-                    <span>Help Desk :</span>+91 590 088 55
+                    <span>Help Desk :</span> {contact.phone}
                   </a>
                 </div>
                 <button
@@ -75,7 +78,7 @@ const HeaderTwo = () => {
           <div className="header-menu-box">
             <div className="header-menu-top">
               <div className="row align-items-center">
-                <div className="col-lg-4">
+                <div className="col-lg-6">
                   <div className="header-top-mob">
                     <svg
                       width="14"
@@ -95,15 +98,14 @@ const HeaderTwo = () => {
                       <circle cx="2" cy="7" r="2" fill="#0E63FF" />
                       <circle cx="2" cy="12" r="2" fill="#0E63FF" />
                     </svg>
-                    <span>Help Desk :</span>
-                    <a href="tel:+9159008855"> +91 590 088 55 </a>
+                    <span>Help Desk :</span><a href={"tel:" + contact.phone}> {contact.phone} </a> 
                   </div>
                 </div>
-                <div className="col-lg-8">
+                <div className="col-lg-6">
                   <div className="header-time">
                     <span>
-                      <i className="fa-light fa-clock-ten"></i> Monday - Friday
-                      09:00 am - 05:00 Pm
+                      <i className="fa-light fa-clock-ten"></i> {contact.office_hours.weekdays.days}:{" "}
+                      {contact.office_hours.weekdays.time}
                     </span>
                   </div>
                 </div>
@@ -118,9 +120,7 @@ const HeaderTwo = () => {
                     </nav>
                   </div>
                 </div>
-                <div className="col-lg-5">
-
-                </div>
+                <div className="col-lg-5"></div>
               </div>
             </div>
           </div>

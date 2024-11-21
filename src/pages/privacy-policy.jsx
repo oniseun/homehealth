@@ -1,4 +1,4 @@
-import ProjectDetails from '@/components/project-details/technologies';
+import ProjectDetails from '@/components/project-details/terms';
 import SEO from '@/components/seo';
 import LayoutTwo from '@/layout/layout-2';
 import Wrapper from '@/layout/wrapper';

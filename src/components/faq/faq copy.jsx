@@ -8,8 +8,11 @@ import FaqBanner from "./faq-banner";
 const FAQ = () => {
   return (
     <>
+      <HeaderTwo />
       <FaqBanner />
       <FaqArea />
+      <DirectContactUs />
+      <FooterFour />
     </>
   );
 };

@@ -1,12 +1,12 @@
 import Link from 'next/link';
 import React from 'react';
+import ProjectDetailsBanner from './project-details-banner';
 
-const FaqBanner = () => {
+const ProjectDetailsBanner = () => {
     return (
       <>
         <section
           className="breadcrumb__area pt-100 pb-120 breadcrumb__overlay"
-          data-background=""
           style={{
             backgroundImage: `url(/assets/img/banner/breadcrumb-01.jpg)`,
           }}
@@ -15,13 +15,13 @@ const FaqBanner = () => {
             <div className="row align-items-center">
               <div className="col-xl-7 col-lg-12 col-md-12 col-12">
                 <div className="tp-breadcrumb">
-                  <h2 className="tp-breadcrumb__title">FAQ</h2>
+                  <h2 className="tp-breadcrumb__title">Project Details</h2>
                 </div>
               </div>
               <div className="col-xl-5 col-lg-12 col-md-12 col-12">
                 <div className="tp-breadcrumb__link text-xl-end">
                   <span>
-                    HomeHealth : <Link href="/">Home</Link>
+                    Bioxlab : <Link href="/portfolio-details">Project</Link>
                   </span>
                 </div>
               </div>
@@ -32,4 +32,4 @@ const FaqBanner = () => {
     );
 };
 
-export default FaqBanner;
+export default ProjectDetailsBanner;

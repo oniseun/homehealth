@@ -52,6 +52,15 @@ const menu_data = [
     active: "", // Not active by default
     sub_menus: [],
   },
+  {
+    id: 5,
+    mega_menu: false,
+    has_dropdown: false,
+    title: "FAQ",
+    link: "/faq",
+    active: "", // Not active by default
+    sub_menus: [],
+  },
 ];
 
 export default menu_data;

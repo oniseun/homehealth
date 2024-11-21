@@ -1,7 +1,9 @@
 import Link from "next/link";
 import React from "react";
+import contact_data from "@/data/contact-data";
 
 const FooterTwo = () => {
+  const contact = contact_data[0]; // Access the first contact info
   return (
     <>
       <footer>
@@ -17,9 +19,9 @@ const FooterTwo = () => {
                     <div className="tp-footer-widget__content mb-95">
                       <i>FEEL FREE TO CONTACT US</i>
                       <h4 className="tp-footer-widget__contact mb-20">
-                        <a href="tel:61383766284">61 383 766 284</a>
+                        <a href={`tel:${contact.phone}`}>{contact.phone}</a>
                       </h4>
-                      <a href="mailto:noreply@envato.com">noreply@envato.com</a>
+                      <a href={`mailto:${contact.email}`}>{contact.email}</a>
                     </div>
                   </div>
                 </div>
@@ -29,7 +31,7 @@ const FooterTwo = () => {
                     data-wow-delay=".4s"
                   >
                     <span className="tp-footer-widget__title mb-15">
-                      Useful links
+                      Useful Links
                     </span>
                     <div className="tp-footer-widget__links mb-35">
                       <ul>
@@ -42,20 +44,7 @@ const FooterTwo = () => {
                         <li>
                           <Link href="/about">Help & About us</Link>
                         </li>
-                        
                       </ul>
-                    </div>
-                    <div className="tp-footer-widget__sub-sec">
-                      <span className="tp-footer-widget__sub-title mb-10">
-                        Opening Hours
-                      </span>
-                      <div className="tp-footer-widget__list">
-                        <ul>
-                          <li>Office Hours: 8AM - 11PM</li>
-                          <li>Office Hours: 8AM - 11PM</li>
-                          <li>Sunday - Wekend Day</li>
-                        </ul>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -69,38 +58,26 @@ const FooterTwo = () => {
                     </span>
                     <div className="tp-footer-widget__links mb-120">
                       <ul>
-                        <li>Ta-134/A, Gulshan Badda Link </li>
+                        <li>{contact.address}</li>
                         <li>
-                          <a href="tel:(+880)15569569365">
-                            (+880)155 69569 365
-                          </a>
+                          Office Hours: {contact.office_hours.weekdays.days} -{" "}
+                          {contact.office_hours.weekdays.time}
                         </li>
                         <li>
-                          <a href="mailto:support@rstheme.com">
-                            support@rstheme.com
-                          </a>
+                          Weekend Hours: {contact.office_hours.weekends.days} -{" "}
+                          {contact.office_hours.weekends.time}
                         </li>
-                        <li>Office Hours: 8AM - 11PM</li>
-                        <li>Sunday - Wekend Day</li>
                       </ul>
                     </div>
-                    <div className="tp-footer-widget__social fw-social">
-                      <a href="#">
-                        <i className="fa-brands fa-facebook-f"></i>
+                    {/* <div className="tp-footer-widget__social fw-social">
+                      <a
+                        href="https://www.linkedin.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fab fa-linkedin"></i>
                       </a>
-                      <a href="#">
-                        <i className="fa-brands fa-twitter"></i>
-                      </a>
-                      <a href="#">
-                        <i className="fa-brands fa-instagram"></i>
-                      </a>
-                      <a href="#">
-                        <i className="fa-light fa-basketball"></i>
-                      </a>
-                      <a href="#">
-                        <i className="fa-brands fa-youtube"></i>
-                      </a>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -112,9 +89,8 @@ const FooterTwo = () => {
                 <div className="col-xl-6 col-lg-6 col-md-12 col-12">
                   <div className="footer-widget__copyright copyright-white">
                     <span>
-                      © Copyright ©{new Date().getFullYear()}
-                      <Link href="/"> Theme_pure</Link>.
-                      <i> All Rights Reserved Copyright</i>
+                      &copy; {new Date().getFullYear()} <Link href="/">Home Health</Link>.{" "}
+                      <i>All Rights Reserved.</i>
                     </span>
                   </div>
                 </div>
@@ -122,13 +98,10 @@ const FooterTwo = () => {
                   <div className="footer-widget__copyright-info info-direction">
                     <ul className="d-flex align-items-center">
                       <li>
-                        <a href="#">Terms and conditions</a>
+                        <a href="/terms">Terms and conditions</a>
                       </li>
                       <li>
-                        <a href="#">Privacy policy</a>
-                      </li>
-                      <li>
-                        <a href="#">Pricing</a>
+                        <a href="/privacy-policy">Privacy policy</a>
                       </li>
                     </ul>
                   </div>

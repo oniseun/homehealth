@@ -3,7 +3,7 @@ import React from "react";
 const ContactUs = () => {
   return (
     <>
-      <div className="contactform__list mb-60">
+      <div>
         {/* <form onSubmit={e => e.preventDefault()} id="contact-form" method="post">
           <div className="row">
             <div className="col-lg-6">

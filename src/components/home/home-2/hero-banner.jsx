@@ -78,27 +78,27 @@ const setting = {
 
 // social_links
 const social_links = [
-  {
-    name: "facebook",
-    link: "http://facebook.com",
-    target: "_blank",
-    icon: "fab fa-facebook-f",
-    color: "facebook-2",
-  },
-  {
-    name: "youtube",
-    link: "https://www.youtube.com/",
-    target: "_blank",
-    icon: "fab fa-youtube",
-    color: "youtub-2",
-  },
-  {
-    name: "twitter",
-    link: "http://twitter.com",
-    target: "_blank",
-    icon: "fab fa-twitter",
-    color: "twitter-2",
-  },
+  // {
+  //   name: "facebook",
+  //   link: "http://facebook.com",
+  //   target: "_blank",
+  //   icon: "fab fa-facebook-f",
+  //   color: "facebook-2",
+  // },
+  // {
+  //   name: "youtube",
+  //   link: "https://www.youtube.com/",
+  //   target: "_blank",
+  //   icon: "fab fa-youtube",
+  //   color: "youtub-2",
+  // },
+  // {
+  //   name: "twitter",
+  //   link: "http://twitter.com",
+  //   target: "_blank",
+  //   icon: "fab fa-twitter",
+  //   color: "twitter-2",
+  // },
 ];
 const HeroBanner = () => {
   const [isLoop, setIsLoop] = useState(false);
