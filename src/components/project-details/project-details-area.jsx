@@ -41,20 +41,7 @@ const ProjectDetailsArea = () => {
                 <p>
                   Category: <span>{category || "N/A"}</span>
                 </p>
-                <div className="tpoverview__social pt-30">
-                  <a href="#">
-                    <i className="fa-brands fa-facebook-f"></i>
-                  </a>
-                  <a className="tpover-social-prn" href="#">
-                    <i className="fa-brands fa-pinterest-p"></i>
-                  </a>
-                  <a className="tpover-social-tweet" href="#">
-                    <i className="fa-brands fa-twitter"></i>
-                  </a>
-                  <a className="tpover-social-tube" href="#">
-                    <i className="fa-brands fa-youtube"></i>
-                  </a>
-                </div>
+
               </div>
             </div>
 
@@ -113,34 +100,9 @@ const ProjectDetailsArea = () => {
             </div>
           ))}
 
-          {/* Video Section */}
-          <div className="row">
-            <div className="col-md-12">
-              <div
-                className="tpprovideo p-relative mb-115 wow fadeInUp"
-                data-wow-delay=".2s"
-              >
-                <img
-                  src="/assets/img/gallery/project-02.jpg"
-                  alt="project-thumb-video"
-                />
-                <button
-                  onClick={() => setIsVideoOpen(true)}
-                  className="play-btn popup-video"
-                >
-                  <i className="fas fa-play"></i>
-                </button>
-              </div>
-            </div>
-          </div>
+
         </div>
       </section>
-
-      <VideoPopup
-        isVideoOpen={isVideoOpen}
-        setIsVideoOpen={setIsVideoOpen}
-        videoId={"d8w5SICzzxc"} // Replace with dynamic data if available
-      />
     </>
   );
 };

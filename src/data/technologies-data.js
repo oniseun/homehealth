@@ -27,7 +27,7 @@ const technologies_data = [
         other genetic research areas.
       </>
     ),
-    main_image: "/assets/img/research/research-thumb-01.jpg",
+    main_image: "/assets/img/research/research-thumb-01.png",
     category: "Technology",
     date: "2024-11-20",
     sections: [
@@ -56,7 +56,7 @@ const technologies_data = [
             </ul>
           </>
         ),
-        img: "/assets/img/technology/xna-intro.jpg",
+        img: "/assets/img/research/xna-intro.jpg",
       },
       {
         title: "Applications in Cancer Mutation Detection",
@@ -71,7 +71,7 @@ const technologies_data = [
             biopsies.
           </>
         ),
-        img: "/assets/img/technology/xna-cancer-detection.jpg",
+        img: "/assets/img/research/xna-cancer-detection.jpg",
       },
       {
         title: "Enhanced Sensitivity with Liquid Biopsy and FFPE Samples",
@@ -93,7 +93,7 @@ const technologies_data = [
             </ul>
           </>
         ),
-        img: "/assets/img/technology/xna-sensitivity.jpg",
+        img: "/assets/img/research/xna-sensitivity.jpg",
       },
       {
         title: "Integration with Sequencing Technologies",
@@ -106,7 +106,7 @@ const technologies_data = [
             saving time and resources while improving diagnostic accuracy.
           </>
         ),
-        img: "/assets/img/technology/xna-sequencing.jpg",
+        img: "/assets/img/research/xna-sequencing.jpg",
       },
       {
         title: "Case Study: ColoScape™ Colorectal Cancer Detection",
@@ -130,7 +130,7 @@ const technologies_data = [
             </ul>
           </>
         ),
-        img: "/assets/img/technology/coloscape.jpg",
+        img: "/assets/img/research/coloscape.jpg",
       },
     ],
   },
@@ -146,7 +146,7 @@ const technologies_data = [
         enhancing accuracy.
       </>
     ),
-    main_image: "/assets/img/research/research-thumb-02.jpg",
+    main_image: "/assets/img/research/research-thumb-02.png",
     category: "Technology",
     date: "2024-11-20",
     sections: [
@@ -173,7 +173,7 @@ const technologies_data = [
             </ul>
           </>
         ),
-        img: "/assets/img/technology/isobdna-workflow.jpg",
+        img: "/assets/img/research/isobdna-workflow.jpg",
       },
       {
         title: "Advantages Over Traditional PCR Methods",
@@ -200,7 +200,7 @@ const technologies_data = [
             </ul>
           </>
         ),
-        img: "/assets/img/technology/isobdna-advantages.jpg",
+        img: "/assets/img/research/isobdna-advantages.jpg",
       },
       {
         title: "Applications of isobDNA™ Technology",
@@ -226,7 +226,7 @@ const technologies_data = [
             </ul>
           </>
         ),
-        img: "/assets/img/technology/isobdna-applications.jpg",
+        img: "/assets/img/research/isobdna-applications.jpg",
       },
       {
         title: "Featured Application: QuantiVirus™ HPV E6/E7 mRNA Test",
@@ -249,7 +249,7 @@ const technologies_data = [
             </ul>
           </>
         ),
-        img: "/assets/img/technology/quantivirus-hpv.jpg",
+        img: "/assets/img/research/quantivirus-hpv.jpg",
       },
     ],
   },
