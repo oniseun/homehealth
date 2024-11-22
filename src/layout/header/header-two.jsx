@@ -24,7 +24,7 @@ const HeaderTwo = () => {
             <div className="col-md-4 col-10">
               <div className="tp-mob-logo">
                 <Link href="/">
-                  <img src="/assets/img/logo/logo.png" alt="logo" />
+                  <img src="/assets/img/logo/homehealth-logo.jpg" alt="home health logo" />
                 </Link>
               </div>
             </div>
@@ -72,7 +72,7 @@ const HeaderTwo = () => {
         >
           <div className="header-logo-box">
             <Link href="/">
-              <img src="/assets/img/logo/logo.png" alt="logo" />
+              <img src="/assets/img/logo/homehealth-logo.jpg" alt="homehealth logo" />
             </Link>
           </div>
           <div className="header-menu-box">
