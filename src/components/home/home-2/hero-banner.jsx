@@ -13,13 +13,13 @@ const hero_slider = [
     ),
     des: (
       <>
-        Pioneering clinical research to address Africa’s unique challenges. <br />
+        Pioneering clinical research to address Africa's unique challenges. <br />
         Transforming lives through collaboration and biotechnology.
       </>
     ),
     appointment: "Learn More",
     about: "Our Mission",
-    img_1: "/assets/img/slider/homehealth-bg-1.png",
+    img_1: "/assets/img/slider/homehealth-bg-1.jpg",
     img_2: "/assets/img/slider/homehealth-bg-2.png",
   },
   {
@@ -37,7 +37,7 @@ const hero_slider = [
     ),
     appointment: "Learn More",
     about: "Our Vision",
-    img_1: "/assets/img/slider/homehealth-bg-3.png",
+    img_1: "/assets/img/slider/homehealth-bg-3.jpg",
     img_2: "/assets/img/slider/homehealth-bg-4.png",
   },
   {
@@ -55,7 +55,7 @@ const hero_slider = [
     ),
     appointment: "Explore More",
     about: "Our Research",
-    img_1: "/assets/img/slider/homehealth-bg-5.png",
+    img_1: "/assets/img/slider/homehealth-bg-5.jpg",
     img_2: "/assets/img/slider/homehealth-bg-6.png",
   },
 ];
@@ -149,7 +149,7 @@ const HeroBanner = () => {
               <div className="swiper-slide bg-white">
                 <div className="container">
                   <div className="row align-items-center">
-                    <div className="col-lg-6 col-md-12 col-12 order-2 order-lg-1">
+                    <div className="col-lg-6 col-md-6 col-12 order-2 order-lg-1 align-top">
                       <div className="slider-content pt-60">
                         <h2 className="slider-content__title mb-45">
                           {item.title}
@@ -165,13 +165,12 @@ const HeroBanner = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="col-lg-6 col-md-6 col-12 order-1 order-lg-2">
-                      <div className="slider-content__bg">
-                        <img src={item.img_1} alt="slider-img" />
-                      </div>
-                      <div className="slider-content__shape d-none d-md-block">
+                    <div className="col-lg-6 col-md-6 col-12 order-1 order-lg-2 align-top">
+                        <img src={item.img_1} alt="slider-img" className="rounded-pill border border-success img-fluid" />
+
+                      {/* <div className="slider-content__shape d-none d-md-block">
                         <img src={item.img_2} alt="slider-shape" />
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
