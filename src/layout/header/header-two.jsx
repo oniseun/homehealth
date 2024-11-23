@@ -39,16 +39,16 @@ const HeaderTwo = () => {
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
                     >
-                      <circle cx="2" cy="2" r="2" fill="#0E63FF" />
-                      <circle cx="7" cy="2" r="2" fill="#0E63FF" />
-                      <circle cx="12" cy="2" r="2" fill="#0E63FF" />
-                      <circle cx="12" cy="7" r="2" fill="#0E63FF" />
-                      <circle cx="12" cy="12" r="2" fill="#0E63FF" />
-                      <circle cx="7" cy="7" r="2" fill="#0E63FF" />
-                      <circle cx="7" cy="12" r="2" fill="#0E63FF" />
-                      <circle cx="7" cy="17" r="2" fill="#0E63FF" />
-                      <circle cx="2" cy="7" r="2" fill="#0E63FF" />
-                      <circle cx="2" cy="12" r="2" fill="#0E63FF" />
+                      <circle cx="2" cy="2" r="2" fill="#32CD32" />
+<circle cx="7" cy="2" r="2" fill="#32CD32" />
+<circle cx="12" cy="2" r="2" fill="#32CD32" />
+<circle cx="12" cy="7" r="2" fill="#32CD32" />
+<circle cx="12" cy="12" r="2" fill="#32CD32" />
+<circle cx="7" cy="7" r="2" fill="#32CD32" />
+<circle cx="7" cy="12" r="2" fill="#32CD32" />
+<circle cx="7" cy="17" r="2" fill="#32CD32" />
+<circle cx="2" cy="7" r="2" fill="#32CD32" />
+<circle cx="2" cy="12" r="2" fill="#32CD32" />
                     </svg>
                     <span>Help Desk :</span> {contact.phone}
                   </a>
@@ -87,16 +87,16 @@ const HeaderTwo = () => {
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
                     >
-                      <circle cx="2" cy="2" r="2" fill="#0E63FF" />
-                      <circle cx="7" cy="2" r="2" fill="#0E63FF" />
-                      <circle cx="12" cy="2" r="2" fill="#0E63FF" />
-                      <circle cx="12" cy="7" r="2" fill="#0E63FF" />
-                      <circle cx="12" cy="12" r="2" fill="#0E63FF" />
-                      <circle cx="7" cy="7" r="2" fill="#0E63FF" />
-                      <circle cx="7" cy="12" r="2" fill="#0E63FF" />
-                      <circle cx="7" cy="17" r="2" fill="#0E63FF" />
-                      <circle cx="2" cy="7" r="2" fill="#0E63FF" />
-                      <circle cx="2" cy="12" r="2" fill="#0E63FF" />
+<circle cx="2" cy="2" r="2" fill="#32CD32" />
+<circle cx="7" cy="2" r="2" fill="#32CD32" />
+<circle cx="12" cy="2" r="2" fill="#32CD32" />
+<circle cx="12" cy="7" r="2" fill="#32CD32" />
+<circle cx="12" cy="12" r="2" fill="#32CD32" />
+<circle cx="7" cy="7" r="2" fill="#32CD32" />
+<circle cx="7" cy="12" r="2" fill="#32CD32" />
+<circle cx="7" cy="17" r="2" fill="#32CD32" />
+<circle cx="2" cy="7" r="2" fill="#32CD32" />
+<circle cx="2" cy="12" r="2" fill="#32CD32" />
                     </svg>
                     <span>Help Desk :</span><a href={"tel:" + contact.phone}> {contact.phone} </a> 
                   </div>
