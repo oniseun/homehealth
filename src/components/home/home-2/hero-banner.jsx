@@ -166,7 +166,7 @@ const HeroBanner = () => {
                       </div>
                     </div>
                     <div className="col-lg-6 col-md-6 col-12 order-1 order-lg-2 align-top">
-                        <img src={item.img_1} alt="slider-img" className="rounded-pill border border-success img-fluid" />
+                        <img src={item.img_1} alt="slider-img" className="rounded-pill border border-success img-fluid shadow-lg" />
 
                       {/* <div className="slider-content__shape d-none d-md-block">
                         <img src={item.img_2} alt="slider-shape" />

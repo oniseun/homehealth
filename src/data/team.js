@@ -18,17 +18,10 @@ const team_data = [
   {
     id: 2,
     img: "/assets/img/team/team-thumb-14.jpg", // Renamed image
-    name: "F. Ayo",
-    title: "Clinical Researcher",
-    des: "Advancing clinical research methodologies to tackle complex healthcare challenges in Africa.",
+    name: "Frank Lee",
+    title: "CEO Xgenx LLC",
+    des: " founder virus geeks San Francisco",
     social_links: [
-      {
-        link: "https://www.linkedin.com/in/ayo-f-185410a1/",
-        target: "_blank",
-        icon: "fab fa-linkedin",
-        name: "LinkedIn",
-        color: "tp-linkedin",
-      },
     ],
   },
   {
