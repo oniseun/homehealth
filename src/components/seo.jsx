@@ -17,7 +17,7 @@ const SEO = ({
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="theme-color" content="#28a745" /> {/* Default green theme color */}
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/favicon.jpg" />
         <link rel="apple-touch-icon" href="/logo192.png" />
         <link rel="manifest" href="/manifest.json" />
 
